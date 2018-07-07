@@ -5,7 +5,7 @@ export interface ICreditBox {
   creditImageUrl: string;
 }
 
-class CreditBox extends React.Component<ICreditBox, any> {
+class CreditBox extends React.PureComponent<ICreditBox, any> {
   public render() {
     return (
       <div className="credit-box">

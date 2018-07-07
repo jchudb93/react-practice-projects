@@ -7,7 +7,7 @@ import user from "../data/user-data";
 
 import selfShot from "../img/self.jpg";
 
-class App extends React.Component {
+class App extends React.PureComponent {
   public render() {
     return (
       <div className="App">
