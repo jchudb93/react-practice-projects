@@ -3,7 +3,9 @@
   "linterOptions": {
     "exclude": [
       "config/**/*.js",
-      "node_modules/**/*.ts"
+      "node_modules/**/*.ts",
+      "src/components/*.ts"
     ]
-  }
+  },
+  "interface-name": [true, "never-prefix"]
 }
